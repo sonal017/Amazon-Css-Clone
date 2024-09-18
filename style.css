@@ -360,3 +360,190 @@ ul a:hover{
     text-decoration:underline;
     color: #dddddd;
 }
+
+/* responsive css */
+@media only screen and (max-width : 768px) {
+    .navbar{
+        height: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        height: 90px;
+    }
+    .nav-logo{
+        height: 30px;
+        width: 80px;
+    }
+    .logo{
+        height: 30px;
+        width: 80px;
+    }
+    .add-first{
+        font-size: 0.75rem;
+    }
+    .add-second{
+        margin-left: 8px;
+    }
+    .add-icon{
+        font-size: 0.6rem;
+    }
+    .nav-search{
+        margin-top: 5px;
+        width: 200px;
+        height: 40px;
+    }
+    .search-select{
+        font-size: 0.6rem;
+       width: 30px;
+    }
+    .search-input{
+        width: 100%;
+        font-size: 0.75rem;
+        border: none;
+    }
+    .search-icon{
+        font-size: 0.75rem;
+        width: 50px;
+    }
+    span{
+        font-size: 0.6rem;
+    }
+    .nav-second{
+        font-size: 0.75rem;
+    }
+    .nav-cart i{
+    font-size: 20px;
+    }
+    .nav-cart{
+        font-size: 0.75rem;
+    }
+    .panel{
+        height: 40px;
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    .panel-all{
+        font-size: 0.6rem;
+    }
+    .panel-ops p{
+        display:inline ;
+        font-size: 0.6rem;
+        margin-left: 5px;
+    }
+    .panel-ops{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 60%;
+        font-size: 0.6rem;
+    }
+    .panel-deals{
+        font-size: 0.5rem;
+    }
+    .hero-section{
+        background-size: cover;
+        height: 110px;
+    }
+    /*  */
+    .shop-section{
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        height: 1900px;
+        flex-direction: column;
+    }
+    .box{
+        margin-top: 20px;
+        height: 450px;
+        width: 90%;
+    }
+   
+    .bb{
+        height: 125px;
+        width: 140px;
+    }
+    .boxes{
+        display: flex;
+        margin-top: 10px;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    .para1{
+        margin-top: 5px;
+        height: 36px;
+        width: 100px;
+        font-size: 12px;
+        margin-left: 30px;
+    }
+    .para2{
+        margin-top: 5px;
+        height: 36px;
+        width: 100px;
+        margin-left: 55px;
+        font-size: 12px;
+    }
+    .bb2{
+        background-size: cover;
+        height: 125px;
+        width: 140px;
+    }
+
+    .shop-vehicles{
+        height: 1135px;
+        width: 100%;
+        background-color: #FFF1B2;
+        margin-bottom: 1px;
+       
+    }
+    .shop-bikes{
+        height: 1100px;
+        width: 85%;
+        display: flex;
+        flex-direction: column;
+    }
+    .bike1{
+        height: 16%;
+        width: 78%;
+    }
+    .bike2{
+        height: 16%;
+        width: 79%;
+    }
+    .bike3{
+        height: 16%;
+        width: 78%;
+    }
+    .bike4{
+        height: 16%;
+        width: 85%;
+    }
+    .bike5{
+        height: 15%;
+        width: 86%;
+    }
+    /* footer respo */
+    footer{
+        margin-top: 15px;
+    }
+    .foot-panel1{
+        height: 40px;
+        font-size: 0.75rem;
+    }
+    .foot-panel2{
+        height: 400px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    
+    }
+    ul{
+        margin-top: 20px;
+    }
+    ul a{
+        display: block;
+        color: #dddddd;
+        font-size: 0.75rem;
+        margin-top: 10px;
+    }
+}
